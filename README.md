@@ -9,19 +9,34 @@
    参与人员：
    		岳英俊、侯宁洲、马彦龙、王琦、王丽红、马松、李星、郑翠红、刘旭瑞<br/>
 
-## 文件夹结构
+## PC端文件夹结构
+> 以自己做的部分为拼音命名html文件，如：就业学员  hnz_jiuyexueyuan.html,方便最终整合
+
 /-------------------<br/>
   |--- images/  所有图片<br/>
   |<br/>
-  |--- js/      库 jquery-2.0.3.min.js   js文件<br/>
+  |--- js/      库 jquery-1.12.2.min.js   js文件<br/>
   |<br/>
-  |--- css/     基础样式 public.css  bootstrap.css   css文件<br/>
+  |--- css/     基础样式 public.css  css文件<br/>
   |<br/>
   |--- index.html<br/>
   |<br/>
-  |--- **.html<br/>
+  |--- **.html     如：就业学员  hnz_jiuyexueyuan.html <br/>
   |<br/>
+## 移动端文件夹结构
+> 以自己做的部分为拼音命名html文件，如：就业学员  hnz_jiuyexueyuan.html,方便最终整合
 
+/-------------------<br/>
+  |--- images/  所有图片<br/>
+  |<br/>
+  |--- js/      库 jquery-2.2.2.min.js touch-0.2.14.min.js   js文件<br/>
+  |<br/>
+  |--- css/     基础样式 public.css   css文件<br/>
+  |<br/>
+  |--- index.html<br/>
+  |<br/>
+  |--- **.html     如：就业学员  hnz_jiuyexueyuan.html <br/>
+  |<br/>
 ## 规范
 ####命名规范
   所有的img、js、css 文件 都以自己姓名缩写为前缀如   hnz_index.css <br/>
@@ -33,7 +48,7 @@
   开发过程中,请加好注释说明，方便后台人员套模板<br/>
 
 ## 网页内宽
-  pc大屏 >1000px <br/>
+  pc大屏 1000px <br/>
   手机端 <768px
 
 ## 任务分配
