@@ -17,17 +17,19 @@
 	position: relative;
 }
 .wq-jyxy-middle{
-    width:1000px;
+    width:1040px;
     height:415px;
     background:#212e3e;
     margin-top:105px;
     position: relative;
+    left:-20px;
 }
 .wq-jyxy-bottom{
-	width:1000px;
+	width:1040px;
     height:603px;
     background:#212e3e;
     position: relative;
+    left:-20px;
 }
 .wq-jyxy-logo{
 	width:239px;
@@ -73,3 +75,11 @@
     background:#fe6e20;
 }
 /*顶部布局*/
+.wq-jyxy-lb{
+	width:1039px;
+	height:100%;
+	overflow: hidden;
+	position: relative;
+    background:red;
+    margin:0 auto;
+}
