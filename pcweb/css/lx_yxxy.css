@@ -1,0 +1,136 @@
+.lx_student{
+    font-family: Arial;
+    width:100%;
+    height:1730px; 
+    background: #ffffff url(../images/lx_image/lx_pencil.png) no-repeat right 127px;
+}
+.lx_student_content{
+    width:1000px;
+    height:100%;
+    margin:0 auto;
+}
+.lx_student_top{
+    width:1000px;
+    height:126px;
+    position: relative;
+}
+.lx_student_middle{
+    width:1000px;
+    height:415px;
+    background:#212e3e;
+    margin-top:105px;
+    position: relative;
+}
+.lx_student_bottom{
+    width:1000px;
+    height:603px;
+    background:#212e3e;
+    position: relative;
+}
+.lx_student_logo{
+    width:352px;
+    height:126px;
+    background:url(../images/lx_image/lx_student.png);
+    position: absolute;
+    bottom: -24px;
+    left:38px;
+    z-index: 2;
+}
+.lx_student_more{
+    width:782px;
+    height:26px;
+    border-bottom:1px solid #d7d7d7;
+    position: absolute;
+    right:0;bottom:0;
+}
+.lx_student1_more{
+    display: block;
+    height: 26px;
+    width: 136px;
+    float:right;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+}
+.lx_s_m_l{
+    color: #888888;
+    float: left;
+    height: 25px;
+    width: 107px;
+    border-left:1px solid #d7d7d7;
+    border-top:1px solid #d7d7d7;
+}
+.lx_s_m_l b{
+    font-weight: bold;
+}
+.lx_s_m_r{
+    color: #fff;
+    float: right;
+    height: 26px;
+    width: 28px;
+    background:#fe6e20;
+}
+/*顶部布局*/
+/*中间学员内容 */
+.lx_student_box{
+    width: 100%;
+    height: 1514px;
+    padding-top: 90px; 
+}
+/* one */
+.lx_student_1{
+    width: 384px;
+    height: 670px;
+    float: left;
+    margin-right: 150px;
+}
+.lx_student_1 a{
+    display: block;
+    width: 100%;
+    height:100%;
+}
+.lx_student_1 .lx_student_img1{
+    width: 100%;
+    height: 550px;
+    position: relative;
+}
+.lx_student_1 .lx_student_img1 img{
+    width: 384px;
+    height: 490px;
+    overflow: hidden;
+    position: relative;
+    z-index: 10;
+}
+.lx_student_1 .lx_student_img1 .lx_blue1{
+    width: 388px;
+    height: 510px;
+    position: absolute;
+    left: 25px;
+    top: 83px;
+    z-index:0;
+    background:#ffffff url(../images/lx_image/lx_blue1.png) no-repeat top left;
+}
+/* one */
+/*  you are the next one */
+ .lx_student_title{
+    width:425px;
+    height: 230px;
+    float: left;
+    background: red;
+
+ }
+ .lx_student_title .lx_title_img{
+    width:100%;
+    height: 98px;
+    font-size: 0;
+    margin-bottom: 20px;
+ }
+.lx_student_title .lx_title_english{
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #0d84ee;
+    font-size: 30px;
+    color: #717070;
+}
+/*  you are the next one */
+/*中间学员内容 */
