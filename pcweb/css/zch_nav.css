@@ -1,0 +1,38 @@
+.head{
+	width: 100%;
+	height: 100px;
+	background: #212e3e;
+	position: absolute;
+	z-index: 999;
+}
+.head .head_content{
+    width: 1000px;
+    height: 100px;
+    margin: 0 auto;
+}
+.head_content .logo{
+	float: left;
+	width: 197px;
+    height: 100px;
+}
+.head_content .logo a{
+    display: block;
+    width: 197px;
+    height: 100px;
+    background: url("images/zch_image/zch_logo.png");
+}
+.head_content .nav_list{
+	float: left;
+	margin-top:34px;
+}
+.head_content .nav_list a{
+	font-size: 16px;
+	color: white;
+	display:block;
+}
+.nav_list ul li{
+	float: left;
+	font-size: 34px;
+	color: #333f4d;
+	margin-right:20px;
+}
