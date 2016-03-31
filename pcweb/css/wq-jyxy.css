@@ -1,0 +1,75 @@
+.wq-jyxy-wraper{
+   width:100%;
+   height:1325px;
+   background:#fff;	
+}
+.wq-jyxy-container{
+	width:1000px;
+	height:1323px;
+    margin:0 auto;
+    border-top:1px solid #f1f1f1;
+    border-bottom:1px solid #f1f1f1;
+}
+/*顶部布局*/
+.wq-jyxy-top{
+	width:1000px;
+	height:198px;
+	position: relative;
+}
+.wq-jyxy-middle{
+    width:1000px;
+    height:415px;
+    background:#212e3e;
+    margin-top:105px;
+    position: relative;
+}
+.wq-jyxy-bottom{
+	width:1000px;
+    height:603px;
+    background:#212e3e;
+    position: relative;
+}
+.wq-jyxy-logo{
+	width:239px;
+	height:179px;
+	background:url(../images/wq-jyxy-logo.png);
+	position: absolute;
+	bottom: -24px;
+	left:38px;
+	z-index: 2;
+}
+.wq-jyxy-more{
+	width:782px;
+	height:26px;
+	border-bottom:1px solid #d7d7d7;
+	position: absolute;
+	right:0;bottom:0;
+}
+.wq-studnet-more{
+	display: block;
+    height: 26px;
+    width: 136px;
+    float:right;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+}
+.s-m-l{
+    color: #888888;
+    float: left;
+    height: 25px;
+    width: 107px;
+    border-left:1px solid #d7d7d7;
+    border-top:1px solid #d7d7d7;
+}
+.s-m-l b{
+	font-weight: bold;
+}
+.s-m-r{
+	color: #fff;
+    float: right;
+    height: 26px;
+    width: 28px;
+    background:#fe6e20;
+}
+/*顶部布局*/
