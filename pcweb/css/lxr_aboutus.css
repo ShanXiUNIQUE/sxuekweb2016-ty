@@ -46,6 +46,11 @@
     font-family: "黑体", "微软雅黑";
     line-height: 24px;
 }
+.lxr_more_box{
+    width: 105px;height: 35px;
+    position: absolute;
+    top: 428px;left: 77px;
+}
 
 
 .lxr_photo_box{
@@ -61,6 +66,6 @@
 .lxr_computer_box{
     width: 516px;height: 176px;
     position: absolute;
-    z-index: 4;
+    z-index: 5;
     top: 674px;left: -220px;
 }
