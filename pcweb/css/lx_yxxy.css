@@ -1,5 +1,5 @@
 .lx_student{
-    font-family: Arial;
+    font-family: "微软雅黑";
     width:100%;
     height:1730px; 
     background: #ffffff url(../images/lx_image/lx_pencil.png) no-repeat right 127px;
@@ -106,9 +106,56 @@
     height: 510px;
     position: absolute;
     left: 25px;
-    top: 83px;
+    top: 52px;
     z-index:0;
     background:#ffffff url(../images/lx_image/lx_blue1.png) no-repeat top left;
+}
+ .lx_student_1 .lx_student_info1{
+    height: 92px;
+    margin-top: 15px;
+    padding-left: 25px;
+ }
+.lx_student_info1  .lx_info1_top{
+    height: 60px;
+  }
+ .lx_info1_top .lx_top_box{
+    height: 25px;
+    line-height: 25px;
+    font-size: 20px;
+ }
+ .lx_top_box div{
+    float: left;
+ }
+.lx_top_box .lx_top_img{
+    width: 32px;
+    height: 25px;
+    overflow: hidden;
+}
+.lx_top_box .lx_top_name{
+    font-size: 20px;
+    color: #0d84ee;
+}
+.lx_info1_top .lx_top_direct{
+    width: 185px;
+    color: #1f6cb1;
+    font-size: 16px;
+    border-bottom:1px solid #d5d5d5;
+    padding: 3px 0;
+    position: relative;
+}
+.lx_top_direct .lx_heng1{
+    width:35px;
+    height: 4px;
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    overflow: hidden;
+    background:#d5d5d5;
+}
+.lx_student_info1 .lx_info1_boottom{
+    height:30px;
+    font-size: 16px;
+    color:#797979;;
 }
 /* one */
 /*  you are the next one */
@@ -116,21 +163,30 @@
     width:425px;
     height: 230px;
     float: left;
-    background: red;
-
  }
  .lx_student_title .lx_title_img{
     width:100%;
     height: 98px;
     font-size: 0;
-    margin-bottom: 20px;
  }
 .lx_student_title .lx_title_english{
+    width: 100%;
     height: 40px;
     line-height: 40px;
     border-bottom: 1px solid #0d84ee;
     font-size: 30px;
     color: #717070;
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+.lx_student_title .lx_title_introduce{
+    width: 100%;
+    height: 80px;
+    font-size:14px; 
+    color:#797979;
+    padding-top: 10px;
+    overflow: hidden;
+    text-overflow:ellipsis;
 }
 /*  you are the next one */
 /*中间学员内容 */
