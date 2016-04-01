@@ -19,20 +19,33 @@
     display: block;
     width: 197px;
     height: 100px;
-    background: url("images/zch_image/zch_logo.png");
+    background: url("../images/zch_image/zch_logo.png");
 }
 .head_content .nav_list{
 	float: left;
+	margin-left: 86px;
 	margin-top:34px;
-}
-.head_content .nav_list a{
-	font-size: 16px;
-	color: white;
-	display:block;
 }
 .nav_list ul li{
 	float: left;
-	font-size: 34px;
-	color: #333f4d;
-	margin-right:20px;
+	margin-right:20px;   
+}
+.head_content .nav_list a{
+	font-size: 13px;
+	color: #ededed;
+	display:block;
+}
+.nav_list ul .fg{
+	display: block;
+    width: 0px;
+   /*  color: #333f4d; */
+    height: 30px;
+    border-right: 1px solid #333f4d
+}
+.head_content .catagory{
+	float: right;
+	margin-top: 17px;
+} 
+.head_content .catagory .ct_1{
+	margin-bottom: 12px;
 }
