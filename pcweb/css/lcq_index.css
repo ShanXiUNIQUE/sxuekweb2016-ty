@@ -19,6 +19,7 @@ body{
 .lcq_container{
 	margin: 0 auto;
 	width:1034px;
+	height:838px;
 	
 }
 .lcq_course_top{
@@ -125,23 +126,7 @@ body{
 	float: left;
 	position: relative;
 	left: -50%;
-	/*margin-top:8px; */
 	font-size: 20px;
-	/*float: left;*/
-	/*display: inline;
-	margin: 0 auto;*/
-	/*position: absolute;
-	left: 0;
-	right:0;
-	margin: auto;*/
-	/*position: absolute;
-	left: 0;
-	right: 0;
-	top:-13px;
-	width: 80%;
-	background: #fff;
-	margin: auto;
-	text-align: center;*/
 }
 .lcq_many_word{
 	text-align: center;
@@ -149,7 +134,16 @@ body{
 	height: 75px;
 	font-size: 14px;
 }
+.lcq_btn_m a{
+	display: block;
+	width: 91px;
+	height: 21px;
+	color:#5E5E5E ;
+	text-decoration: none;
+}
 .lcq_btn_m{
+	position: relative;
+	z-index: 1;
 	width: 91px;
 	height: 21px;
 	background: #f4f4f4;
@@ -157,10 +151,13 @@ body{
 	border-radius:50px;
 	text-align: center;
 	line-height: 21px;
-	color:#d1d1d1 ;
+	
 	margin: 0 auto;
 	font-size: 12px;
 	margin-top:15px; 
+}
+.lcq_btn_m_active a{
+	color:#d1d1d1 ;
 }
 .lcq_btn_m_active{
 	
@@ -168,5 +165,9 @@ body{
 	border: 1px solid  #464646;
 	color:#d1d1d1 ;
 	
+}
+.lcq_co_img{
+	position: relative;
+	z-index: 1;
 }
 /*课程结束*/
