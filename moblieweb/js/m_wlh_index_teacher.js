@@ -79,7 +79,7 @@ $(function(){
      $(".m_wlh_teacher_ui").css("marginTop","37px")
   })
 
-
+  var wlh_box=$(".m_wlh_teachercon")
   var wlhall=wlh_box.get();
     touch.on(wlh_box, 'touchstart', function(ev){
     clearInterval(wlht);
