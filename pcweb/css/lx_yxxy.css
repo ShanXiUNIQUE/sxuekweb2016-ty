@@ -1,3 +1,6 @@
+img{
+    border:none;
+}
 .lx_student{
     font-family: "微软雅黑";
     width:100%;
@@ -8,6 +11,7 @@
     width:1000px;
     height:100%;
     margin:0 auto;
+    background: #f4f4f4;
 }
 .lx_student_top{
     width:1000px;
@@ -140,7 +144,7 @@
     color: #1f6cb1;
     font-size: 16px;
     border-bottom:1px solid #d5d5d5;
-    padding: 3px 0;
+    padding: 5px 0;
     position: relative;
 }
 .lx_top_direct .lx_heng1{
@@ -154,8 +158,10 @@
 }
 .lx_student_info1 .lx_info1_boottom{
     height:30px;
+    line-height: 30px;
     font-size: 16px;
-    color:#797979;;
+    color:#797979;
+    overflow: hidden;
 }
 /* one */
 /*  you are the next one */
@@ -189,4 +195,67 @@
     text-overflow:ellipsis;
 }
 /*  you are the next one */
+
+/* student 2 */
+.lx_student_2{
+    width: 425px;
+    height: 510px;
+    float: left;
+}
+.lx_student_2 a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.lx_student_2 .lx_student_info1{
+    padding-left: 25px;
+}
+.lx_student_2 .lx_student_img2{
+    width: 395px;
+    height: 395px;
+    position: relative;
+    margin-top: 20px;
+}
+.lx_student_2 .lx_student_img2 img{
+    width: 395px;
+    height: 395px;
+    position: relative;
+    z-index: 2;
+}
+.lx_student_2 .lx_student_img2 .lx_up{
+    width: 8px;
+    height: 22px;
+    position: absolute;
+    top: -18px;
+    left: 25px;
+    z-index: 0;
+}
+/* student 2 */
+/* student 3*/
+ .lx_student_3{
+    width: 975px;
+    height:395px;
+    float: left;
+    background: red;
+    padding-left: 25px;
+    margin-top: -45px;
+ }
+.lx_student_3 .lx_student_3_left{
+    width:395px;
+    height:395px;
+    position: relative;
+}
+.lx_student_3 .lx_student_3_left img{
+   width: 395px;
+   height: 395px;
+}
+.lx_student_3 .lx_student_3_left .lx_left{
+   width: 136px;
+   height: 14px;
+   position: absolute;
+   right: -136px;
+   top: 260px;
+
+}
+/* student 3*/
 /*中间学员内容 */
