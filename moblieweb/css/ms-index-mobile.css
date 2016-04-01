@@ -1,0 +1,105 @@
+.one{
+  width:200px;
+  height:500px;
+  margin:0 auto;
+  background: red;
+}
+.ms-huanjing{
+  width:100%;
+  height:1100px;
+  margin:0 auto;
+  padding:20px 0;
+}
+.ms-top-img{
+  width:67%;
+  height:146px;
+  background-image: url(../images/ms-huanjing.png);
+  margin:0 auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.ms-huanjing-img{
+  width:90%;
+  height:600px;
+  margin: 100px auto;
+  margin-bottom: 0px;
+}
+
+.ms-img-right{
+  /*width:210px;*/
+  height:100%;
+  position: relative;
+  float:left;
+}
+.ms-one{
+  width:45%;
+}
+.ms-two{
+  width:55%;
+}
+.ms-box{
+  width:100%;
+  position:absolute;
+  left:0;
+  z-index: 10;
+  opacity: 0;
+}
+.ms-box-two{
+  top:300px;
+  height:300px;
+}
+.ms-box-hidden{
+  height:164px;
+  top:218px;
+  left:0;
+  z-index: 1;
+  background-image: url(../images/ms-index-15.png);
+  background-size: cover;
+  background-position: center center;
+}
+.ms-box-one{
+  height:300px;
+  background-image: url(../images/ms-index-10.png);
+  background-size: cover;
+  background-position: center center;
+}
+.ms-box-two{
+  height:300px;
+  background-image: url(../images/ms-index-13.png);
+  background-size: cover;
+  background-position: center center;
+}
+.ms-box-three{
+  height:368px;
+  background-image: url(../images/ms-index-11.png);
+  background-size: cover;
+  background-position: center center;
+  top:0px;
+}
+.ms-box-four{
+  height:232px;
+  background-image: url(../images/ms-index-19.png);
+  background-size: cover;
+  background-position: center center;;
+  top:368px;
+}
+.ms-box-hidden-two{
+  height:252px;
+  bottom:20px;
+  left:0;
+  z-index: 1;
+  background-image: url(../images/ms-index-9.png);
+  background-size: cover;
+  background-position: center center;
+}
+
+.ms-baigang{
+  width:0px;
+  height:2px;
+  background: #fff;
+  position: absolute;
+  left:350px;
+  z-index: 50;
+  top:168px;
+}
