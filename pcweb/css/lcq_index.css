@@ -1,20 +1,7 @@
-/*测试所用开始*/
-.aa{
-	height: 650px;
-	background: #131a23;
-	border:1px solid #000;
-}
-*{
-	margin: 0;
-	padding: 0;
-}
-body{
-	font-family:微软雅黑 ;
-}
-/*测试所用结束*/
 /*课程开始*/
 .lcq_course{
-	border-top:4px solid #fb7d29;
+	position: relative;
+	z-index: 9999;
 }
 .lcq_container{
 	margin: 0 auto;
