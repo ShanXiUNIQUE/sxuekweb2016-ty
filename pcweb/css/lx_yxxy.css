@@ -4,14 +4,17 @@ img{
 .lx_student{
     font-family: "微软雅黑";
     width:100%;
-    height:1730px; 
-    background: #ffffff url(../images/lx_image/lx_pencil.png) no-repeat right 127px;
+    height:1710px; 
+    background-color: #ffffff;
+    background-image: url(../images/lx_image/lx_pencil.png),url(../images/lx_image/lx_phone.png);
+    background-position:right 127px,3% bottom;
+    background-repeat: no-repeat,no-repeat;
 }
 .lx_student_content{
     width:1000px;
     height:100%;
     margin:0 auto;
-    background: #f4f4f4;
+    
 }
 .lx_student_top{
     width:1000px;
@@ -236,14 +239,22 @@ img{
     width: 975px;
     height:395px;
     float: left;
-    background: red;
     padding-left: 25px;
     margin-top: -45px;
+    position: relative;
+    z-index: 666;
+ }
+ .lx_student_3 a{
+    display: block;
+    width: 100%;
+    height: 100%;
  }
 .lx_student_3 .lx_student_3_left{
     width:395px;
     height:395px;
     position: relative;
+    float: left;
+    margin-right: 150px;
 }
 .lx_student_3 .lx_student_3_left img{
    width: 395px;
@@ -254,8 +265,107 @@ img{
    height: 14px;
    position: absolute;
    right: -136px;
-   top: 260px;
+   top:200px;
 
 }
+.lx_student_3   .lx_student_3_right{
+    width:384px;
+    height:92px;
+    position: absolute;
+    right: 100px;
+    top: 120px;
+    text-align: center;
+} 
+.lx_student_3 .lx_info1_top .lx_top_box{
+     width: 120px;
+     margin:0 auto;
+     overflow: hidden;
+}
+.lx_student_3 .lx_info1_top .lx_top_direct{
+    margin: 0 auto;
+} 
+.lx_student_3 .lx_top_direct .lx_heng1{
+    left: 75px;
+}
 /* student 3*/
+/* student 4*/
+
+.lx_student_4{
+    width: 1000px;
+    height: 402px;
+    position: relative;
+    float: left;
+    margin-top: -80px;
+
+}
+.lx_student_4 a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.lx_student_4 .lx_student_4_left{
+    width: 384px;
+    height: 92px;
+    position: absolute;
+    top: 150px;
+    left: 36px;
+    padding-right: 5px;
+}
+.lx_student_4_left   .lx_student_info1{
+    float: right;
+    text-align: right;
+}
+.lx_student_4_left .lx_info1_top .lx_top_img{
+    float: right;
+}
+.lx_student_4_left .lx_info1_top .lx_top_name{
+    float: right;
+}
+.lx_student_4_left .lx_info1_top .lx_top_direct{
+   text-align: right;
+   float: right;
+}
+.lx_student_4 .lx_top_direct .lx_heng1{
+
+  left: 150px;
+
+}
+.lx_student_4 .lx_student_4_right{
+    width: 342px;
+    height: 100%;
+    position: absolute;
+    right: 70px;
+}
+.lx_student_4_right .lx_student_img1{
+    width: 342px;
+    height: 402px;
+
+}
+.lx_student_4_right .lx_student_img1 img{
+    width: 342px;
+    height: 402px;
+    position: relative;
+    z-index: 100;
+}
+.lx_student_4_right .lx_blue2{
+     width: 342px;
+    height: 400px;
+    position: absolute;
+    left: -53px;
+    top: 52px;
+    z-index:0;
+    background:#ffffff url(../images/lx_image/lx_blue2.png) no-repeat top left;
+}
+#lx_xian1{
+    position: absolute;
+    right: 55px;
+    bottom: 0;
+    z-index: 2222;
+}
+#lx_xian2{
+    position: absolute;
+    left: -30px;
+    top: -126px;
+}
+/* student 4*/
 /*中间学员内容 */

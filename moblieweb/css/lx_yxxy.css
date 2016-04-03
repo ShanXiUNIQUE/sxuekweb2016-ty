@@ -1,0 +1,74 @@
+*{
+	-webkit-box-sizing:border-box;
+}
+.lx_student{
+	width: 100%;
+	padding: 0 15px;
+	height: 805px;
+	background: #ffffff;
+}
+.lx_content{
+	margin: 0 auto;
+	height: 100%;
+}
+/* 头部 */
+.lx_student .lx_student_top{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	position: relative;
+}
+.lx_student_top .lx_student_logo{
+	width: 40%;
+	padding-bottom: 13.33%;
+	background-image: url(../images/lx_image/lx_m_student.png) ;
+	background-size: contain;
+	background-repeat: no-repeat;
+	float: left;
+}
+.lx_student_top  .lx_student_more{
+	width: 60%;
+	height: 26px;
+	float: left;
+	position: absolute;
+	bottom: 0;
+	border-bottom: 1px solid #d7d7d7;
+}
+.lx_student_more .lx_student1_more{
+	float: right;
+	display: block;
+	font-size: 14px; 
+}
+.lx_student1_more .lx_s_m_l{
+	float: left;
+	width: 107px;
+	height: 26px;
+	border-left: 1px solid #d7d7d7;
+    border-top: 1px solid #d7d7d7;
+    color: #888888;
+    text-align: center;
+    line-height: 26px;
+}
+.lx_student1_more .lx_s_m_r{
+	float: left;
+	color: #fff;
+    height: 26px;
+    width: 28px;
+    text-align: center;
+    line-height: 26px;
+    background: #fe6e20;
+}
+/* 头部 */
+/* 优秀学员*/
+.lx_student_box{
+	width: 100%;
+	height: 640px;
+	margin-top: 30px;
+}
+.lx_student_each{
+	width: 50%;
+	height: 320px;
+	float: left;
+	background: #f4f4f4;
+}
+/* 优秀学员*/
