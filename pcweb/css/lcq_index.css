@@ -1,0 +1,160 @@
+/*课程开始*/
+.lcq_course{
+	position: relative;
+	z-index: 9999;
+}
+.lcq_container{
+	margin: 0 auto;
+	width:1034px;
+	height:838px;
+	
+}
+.lcq_course_top{
+	margin-top:-70px; 
+	height: 230px;
+	padding:175px 50px 0 56px;
+	background: url(../images/lcq_kc_bg.png) no-repeat 0 0;
+}
+.lcq_co_top{
+	
+	width:704px ;
+	margin: 0 auto;
+}
+.lcq_special{
+	width: 76px;
+	border:2px dotted #e0e0e0;
+	height: 80px;
+	background: #fff;
+	float: left;
+	margin: 0 4px;
+	text-align: center;
+	color:#247dce ;
+}
+.lcq_co_bottom{
+	margin-top:37px; 
+	text-align: center;
+}
+.lcq_box_1{
+	font-size: 26px;
+	margin-top:15px;
+	margin-bottom:3px;
+}
+.lcq_box_2{
+	font-size: 14px;
+}
+.lcq_detail{
+	margin-bottom:10px; 
+	font-size:1px ;
+}
+.lcq_detail span{
+	font-weight: bold;
+}
+.lcq_detail .lcq_lan{
+	color: #3899f0;
+}
+.lcq_info{
+	font-size: 3px;
+}
+.lcq_course_bottom{
+	padding-left:28px;
+	padding-right: 22px;
+	overflow: hidden; 
+}
+.lcq_co_class{
+	background: #fff;
+	width: 272px;
+	height: 433px;
+	float: left;
+	margin: 0 28px;
+	position: relative;
+}
+.lcq_cover{
+	position: absolute;
+	left:46px ;
+	top:0;
+	width: 179px;
+	height: 378px;
+	display: none;
+	background: url(../images/lcq_cover.png);
+}
+.lcq_course_hover{
+	display: block;
+}
+.lcq_co_img{
+	display: block;
+	width:174px ;
+	height:168px ;
+	margin: 0 auto;
+}
+.lcq_member{
+	position: relative;
+	left: 50%;
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.lcq_line_1{
+	width: 26px;
+	height:1px ;
+	background:#dbdbdb ;
+	position: absolute;
+	left: -31px;
+	top:13px;
+}
+.lcq_line_2{
+	width: 26px;
+	height:1px ;
+	background:#dbdbdb ;
+	position: absolute;
+	right: -31px;
+	top:13px;
+}
+.lcq_c_name{
+	float: left;
+	position: relative;
+	left: -50%;
+	font-size: 20px;
+}
+.lcq_many_word{
+	text-align: center;
+	line-height: 25px;
+	height: 75px;
+	font-size: 14px;
+}
+.lcq_btn_m a{
+	display: block;
+	width: 91px;
+	height: 21px;
+	color:#5E5E5E ;
+	text-decoration: none;
+}
+.lcq_btn_m{
+	position: relative;
+	z-index: 1;
+	width: 91px;
+	height: 21px;
+	background: #f4f4f4;
+	border: 1px solid #d9d9d9;
+	border-radius:50px;
+	text-align: center;
+	line-height: 21px;
+	
+	margin: 0 auto;
+	font-size: 12px;
+	margin-top:15px; 
+}
+.lcq_btn_m_active a{
+	color:#d1d1d1 ;
+}
+.lcq_btn_m_active{
+	
+	background: #464646;
+	border: 1px solid  #464646;
+	color:#d1d1d1 ;
+	
+}
+.lcq_co_img{
+	position: relative;
+	z-index: 1;
+}
+/*课程结束*/

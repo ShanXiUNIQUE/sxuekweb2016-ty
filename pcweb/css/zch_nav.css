@@ -1,0 +1,82 @@
+.head{
+	width: 100%;
+	height: 100px;
+	background: #212e3e;
+	position: absolute;
+	z-index: 999;
+}
+.head img{
+	border: 0px;
+}
+.head .head_content{
+    width: 1000px;
+    height: 100px;
+    margin: 0 auto;
+}
+.head_content .logo{
+	float: left;
+	width: 197px;
+    height: 100px;
+}
+.head_content .logo .icon{
+    display: block;
+    width: 197px;
+    height: 100px;
+    background: url("../images/zch_image/zch_logo.png");
+}
+.head_content .logo .city{
+	position: absolute;
+	top: 100px;
+	left:266px; 
+	z-index: 999;
+}
+.head_content .nav_list{
+	float:left;
+	margin-left:78px;
+	margin-top:34px;
+}
+.nav_list ul li{
+	float: left;
+	position: relative;
+	margin-right:17px;   
+}
+.nav_list ul .list{
+	width: 65px;
+	height: 29px;
+}
+.head_content .nav_list p{
+	font-size: 13px;
+	color: #ededed;
+	/* display:block; */
+}
+ .head_content .nav_list a:hover{
+  	display: block;
+  	width: 108px;
+  	height: 102px;
+  	position: absolute;
+  	top:-18px;
+  	left:-8px;
+    font-weight: bold;
+    background:url("../images/zch_image/zch_bg.png"); 
+  } 
+.head_content .nav_list a:hover>p{
+     margin-left: 17px;
+}
+.head_content .nav_list a:hover>.p1{
+     margin-top: 14px;
+     margin-bottom:12px;
+}
+.nav_list ul .fg{
+	display: block;
+    width: 0px;
+   /*  color: #333f4d; */
+    height: 30px;
+    border-right: 1px solid #333f4d
+}
+.head_content .catagory{
+	float: right;
+	margin-top: 17px;
+} 
+.head_content .catagory .ct_1{
+	margin-bottom: 12px;
+}

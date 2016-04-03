@@ -26,15 +26,16 @@ $(function(){
         
       wlh_imgs.eq(wlh_next).css("left","1080px");
       wlh_imgs.eq(wlh_now2).animate({left:'-1080px'},500);
+      $(".wlh_teacher_btnbox li").css("background","#0f0e0f").eq(wlh_next).css("background","#fb7d29")
       wlh_imgs.eq(wlh_next).animate({left:0},500);
       wlh_now2=wlh_next;
     }
-  var t=setInterval(move,2000);
+  var t=setInterval(move,3000);
 
   $(".wlh_teachercon").hover(function(){
     clearInterval(t);
   },function(){
-        t=setInterval(move,2000);
+        t=setInterval(move,3000);
         
   })
 
@@ -42,9 +43,12 @@ $(function(){
     index=$(this).index();
     $(".wlh_teacher_btnbox li").css("background","#0f0e0f").eq(index).css("background","#fb7d29")
     wlh_imgs.css({left:"1080px"});
-    wlh_imgs.eq(index).css({left:0});
+    wlh_imgs.eq(index).stop(true,true)
+    wlh_imgs.eq(index).fadeOut(50).css({left:0}).fadeIn(300);
         wlh_now2=index;
         wlh_next=index;
+  },function(){
+
   })
 
 	$(".wlh_teacher_card").hover(function(){
@@ -57,6 +61,7 @@ $(function(){
      $(".wlh_teacher_china").eq(index).show();
      $(".wlh_teacher_jiantou").eq(index).show();
      $(".wlh_teacher_bluebox_bg").eq(index).show();
+     $(".wlh_teacher_ui").eq(index).css("marginTop","58px")
 
   },function(){ 
      $(".wlh_teacher_bluebox").removeClass("wlh_teacher_bluebox_hover");
@@ -67,5 +72,6 @@ $(function(){
      $(".wlh_teacher_china").hide(); 
      $(".wlh_teacher_jiantou").hide(); 
      $(".wlh_teacher_bluebox_bg").hide(); 
+     $(".wlh_teacher_ui").css("marginTop","37px")
   })
 })

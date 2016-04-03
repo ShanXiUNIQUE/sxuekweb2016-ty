@@ -1,0 +1,166 @@
+.lcq_course{
+	width:100%;
+}
+.lcq_bg{
+	width: 100%;
+	overflow: hidden;
+	margin: 0 auto;
+	position: relative;
+	background: url(../images/lcq_bg.png) no-repeat center 0px;
+	background-size:cover; 
+}
+.lcq_ch_w {
+	z-index: 1;
+	position: relative;
+	width: 70%;
+	margin: 0 auto;
+}
+.lcq_ch_w img{
+	width: 100%;
+}
+.lcq_co_special{
+	color:#247dce;
+	text-align: center;;
+	width: 22%;
+	border:1px dotted #dcdcdc;
+	background: #fff;
+	float:left;
+	margin: 1%;
+	border:1px dotted #ccc;
+}
+.lcq_one{
+	position: relative;
+	z-index: 2;
+	overflow: hidden;
+	width:80% ;
+	padding:0 6%;
+	margin: 0 auto;
+	margin-top:-156px; 
+	
+}
+.lcq_d_word{
+	
+	margin-top:20%;
+	font-size:18px;
+}
+.lcq_x_word{
+	margin-top:10%;
+	
+	font-size:12px;
+}
+.lcq_info_w{
+	padding:0 5% ;
+	color: #7f7f7f;
+	text-align: center;
+	margin-top: 34px;
+	margin-bottom:22px ;
+}
+.lcq_info_w span{
+	font-weight: bold;
+	color:#505050;
+}
+.lcq_info_w  .lcq_ts{
+	color: #7f7c7c;
+}
+.lcq_list_item{
+	margin: 0 auto;
+	overflow: hidden;
+}
+.lcq_dd{
+	overflow: hidden;
+	width: 50%;
+	float:left;
+	background: red;
+}
+.lcq_box_l .lcq_op{
+	color:#404040;
+}
+
+.lcq_box_l p{
+	color:#797979;
+}
+.lcq_box_l{
+	text-align: center;
+	width: 40%;
+	padding: 5%;
+	height: 240px;
+	float: left;
+	background: #fff;
+	
+}
+.lcq_dd_box{
+	width:200%;
+	overflow: hidden;
+}
+.lcq_box_l a{
+	display: block;
+	width: 50%;
+	margin: 0 auto;
+	/*height: 70px;*/
+	
+}
+.lcq_op{
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.lcq_info_op{
+	font-size: 12px;
+	margin-bottom:10px ;
+}
+.lcq_more{
+	border:1px solid #bfbfbf;
+	width: 60px;
+	margin: 0 auto;
+	font-size:12px ;
+	height: 20px;
+	line-height:20px;
+	border-radius: 20px;
+	background: #f4f4f4;
+}
+.lcq_more a{
+	color: #797979;
+	text-decoration: none;
+}
+.lcq_list_item{
+	position: relative;
+	width:100%;
+}
+
+.lcq_list_item .lcq_btn_dd{
+	
+	position: absolute;
+	bottom:15px;
+	left:48%;
+	
+}
+.lcq_xdd{
+	width: 8px;
+	height: 8px;
+	margin-right:5px ;
+	background: #000;
+	float:left ;
+	border-radius: 50%;
+}
+
+.lcq_xdd{
+	background:url(../images/lcq_lit_btn1.png) ;
+}
+ .lcq-btn-active{
+	background:url(../images/lcq_lit_btn.png) ;
+}
+.lcq_l_img{
+	display: block;
+	font-size: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+

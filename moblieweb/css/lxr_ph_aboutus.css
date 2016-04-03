@@ -1,0 +1,76 @@
+
+/* 6161--5491 */
+.lxr_ph_box{
+	width: 100%;
+	position: relative;
+	margin-top:15px;
+}
+
+.lxr_ph_title_box{
+	width: 92%;
+	position: absolute;
+	top: 1%;left: 2%;
+	z-index: 1;
+}
+
+.lxr_ph_bg_box{
+	width: 111%;
+	position: absolute;
+	top: 18%;right: -7%;
+}
+
+.lxr_ph_logo_box{
+	width: 33%;
+	position: absolute;
+	top: 11%;left: 6%;
+}
+
+.lxr_ph_photo_box{
+	width: 44.5%;
+	position: absolute;
+	right: -2px;top: 17%;
+	border: 2px solid #27A4F3;
+	border-radius: 2px;
+	box-shadow: 0 0 15px #999;
+}
+
+.lxr_ph_computer_box{
+	width: 53.6%;
+	position: absolute;
+	left: -1.5%;top: 67%;
+
+}
+	
+.lxr_ph_word1{
+	width: 40%;height: auto;
+	position: absolute;
+	left: 8.5%;top: 24%;
+}
+
+.lxr_ph_word1 span{
+	color: #fff;
+	font-family: "黑体";
+	width: 100%;font-weight: bold;
+}
+
+.lxr_ph_word2{
+	width: 40%;height: auto;
+	position: absolute;
+	left: 8.5%;top: 41%;
+}
+
+.lxr_ph_word2 span{
+	color: #fff;
+	font-family: "黑体";
+	width: 100%;
+}
+
+.lxr_ph_more_box{
+	width: 10%;
+	position: absolute;
+	left: 8.5%;top: 77%;
+}
+
+.lxr_img{
+	width: 100%;height: 100%
+}
