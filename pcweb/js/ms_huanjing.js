@@ -53,4 +53,12 @@ $(function(){
 
           }
         })
+
+        // 报名开始
+        var obj=$(".ms-class-lis");
+
+        obj.eq(0).css({"margin-left":"0","color":"#FB7D29","border-top":"2px solid #FB7D29"}).find(".ms-h").css({"background-color":"#FFF9F4"})
+        obj.eq(1).css({"color":"#3888F4","border-top":"2px solid #3888F4"}).find(".ms-h").css({"background-color":"#FAFCFF"})
+        obj.eq(2).css({"color":"#EF3F64","border-top":"2px solid #EF3F64"}).find(".ms-h").css({"background-color":"#FEF2F4"})
+        obj.eq(3).css({"color":"#3888F4","border-top":"2px solid #3888F4"}).find(".ms-h").css({"background-color":"#FBFDFB"})
 })
