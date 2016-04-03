@@ -3,6 +3,7 @@
 .lxr_ph_box{
 	width: 100%;
 	position: relative;
+	margin-top:15px;
 }
 
 .lxr_ph_title_box{
@@ -43,24 +44,24 @@
 .lxr_ph_word1{
 	width: 40%;height: auto;
 	position: absolute;
-	left: 8.5%;top: 28%;
+	left: 8.5%;top: 24%;
 }
 
 .lxr_ph_word1 span{
-	font-size: 28px;color: #fff;
-	font-family: "黑体";line-height:40px;
+	color: #fff;
+	font-family: "黑体";
 	width: 100%;font-weight: bold;
 }
 
 .lxr_ph_word2{
 	width: 40%;height: auto;
 	position: absolute;
-	left: 8.5%;top: 45%;
+	left: 8.5%;top: 41%;
 }
 
 .lxr_ph_word2 span{
-	font-size: 26px;color: #fff;
-	font-family: "黑体";line-height:36px;
+	color: #fff;
+	font-family: "黑体";
 	width: 100%;
 }
 

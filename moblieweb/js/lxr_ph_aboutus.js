@@ -10,7 +10,7 @@ $(function () {
 	$(".lxr_ph_title_box").css({height:lxr_y1});
 
 	var lxr_x2 = $(".lxr_ph_bg_box").width();
-	var lxr_y2 = lxr_x2*380/710;
+	var lxr_y2 = lxr_x2*400/710;
 	$(".lxr_ph_bg_box").css({height:lxr_y2});
 
 	var lxr_x3 = $(".lxr_ph_logo_box").width();
@@ -28,5 +28,10 @@ $(function () {
 	var lxr_x6 = $(".lxr_ph_more_box").width();
 	var lxr_y6 = lxr_x6*24/71;
 	$(".lxr_ph_more_box").css({height:lxr_y6});
+
+	var lxr_font_size1 = lxr_y2*16/410;
+	$(".lxr_ph_word1 span").css({fontSize:lxr_font_size1});
+	var lxr_font_size2 = lxr_y2*14/410;
+	$(".lxr_ph_word2 span").css({fontSize:lxr_font_size2});
 
 })
