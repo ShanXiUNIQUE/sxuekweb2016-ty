@@ -18,3 +18,13 @@ $('.lcq_ch_w').css({top:-lcq_kuan1/4+'px'});
 $('.lcq_one').css({"margin-top":-lcq_kuan1/4+'px'});
 
 
+var lcq_lo=$('.lcq_box_l').width()*7/12;
+var lcq_1=$('.lcq_l_img').css({"width":lcq_lo});
+$('.lcq_l_img').css({"height":lcq_lo});
+$('.lcq_l_img').find('img').css({"width":100+'%'});
+$('.lcq_l_img').find('img').css({"height":100+'%'});
+$('.lcq_box_l').height(185+lcq_lo);
+
+
+
+
