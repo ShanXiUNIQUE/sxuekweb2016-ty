@@ -97,14 +97,14 @@ img{
 }
 .m_wlh_teacher_namebox{
 	color: #fff;
-	font-size: 34px;
+	font-size: 20px;
 }
 .m_wlh_teacher_yin{
 	margin-top: 5px;
 	margin-bottom: 3px;
 	color: #aad0ff;
 	font-family: Arial;
-	font-size: 30px;
+	font-size: 18px;
 }
 .m_wlh_teacher_star img{
     width: 12px;
@@ -114,7 +114,7 @@ img{
 .m_wlh_teacher_ui{
     margin-top:15px; 
     font-family: Arial;
-    font-size: 24px;
+    font-size: 16px;
     color: #c0dcff;
 }
 .m_wlh_teacher_UI{
@@ -124,7 +124,7 @@ img{
 	margin-top: 8px;
 	font-family: "Helvetica Neue Thin","微软雅黑";
 	color: #aecaec;
-	font-size: 50px;
+	font-size: 30px;
 	font-weight: lighter;
 }
 .m_wlh_teacher_china{
@@ -134,7 +134,8 @@ img{
     overflow: hidden;
     margin-top: 10px;
     display: none;
-    font-size: 22px;
+    font-size: 12px;
+    text-overflow:ellipsis;
 }
 .m_wlh_teacher_jiantou{
 	width: 50px;
@@ -171,8 +172,8 @@ img{
 	width: 100px;
 	height: 10px;
 	position: absolute;
-	left: 44%;
-	bottom: 5%;
+	left: 40%;
+	bottom: 0;
 }
 .m_wlh_teacher_btnbox li{
 	cursor: pointer;
@@ -187,32 +188,41 @@ img{
 
 /*交流 开始*/
 .m_wlh_teacher_exchange{
-	width: 344px;
-	height: 54px;
+	width: 70%;
+	height: auto;
 	margin:0 auto;
 	margin-top: 40px;
+	overflow: hidden;
 }
 .m_wlh_teacher_left{
-	width:27px;
-	height: 54px;
-	background-image: url(../images/wlh_images/wlh_index_teacher_left.png); 
+	width:15%;
+	height: auto; 
 	float: left;
+}
+.m_wlh_teacher_left img{
+	width: 100%;
 }
 .m_wlh_teacher_right{
-	width:27px;
-	height: 54px;
-	background-image: url(../images/wlh_images/wlh_index_teacher_right.png); 
+	width:15%;
+	height:auto;
 	float: right;
 }
+.m_wlh_teacher_right img{
+	width: 100%;
+
+}
 .m_wlh_teacher_center{
-	width:250px;
-	height: 54px;
-	background-image: url(../images/wlh_images/wlh_index_teacher_center.png); 
+	width:60%;
+	height: auto;
 	float: left;
-	margin-left: 22px;
+	margin: 0 5%;
+}
+.m_wlh_teacher_center img{
+	width: 100%;
+	margin-top: 10%;
 }
 .m_wlh_teacher_center a{
-	width:250px;
+	width:100%;
 	height: 54px;
 	display: block;
 }

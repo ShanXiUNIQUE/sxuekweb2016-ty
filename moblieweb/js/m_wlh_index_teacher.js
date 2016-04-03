@@ -13,6 +13,10 @@ $(function(){
   })
 
 
+
+  var wlh_imgh=$(".m_wlh_teacher_conimg").find("img").height();
+  var wlh_ulh=$(".m_wlh_teacher_card").height();
+  $(".m_wlh_teachercon").css("height",wlh_ulh+140)
   var m_wlh_img=$(".m_wlh_teacher_cardbox");
   var m_wlh_now2=0;
   var m_wlh_next=0;
