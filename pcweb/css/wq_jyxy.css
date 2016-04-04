@@ -76,6 +76,12 @@
     background:#fe6e20;
 }
 /*顶部布局*/
+.wq_jyxy_bg{
+    width:312px;height:163px;
+    position: absolute;
+    left:-218px;
+    top:451px;
+}
 .wq_jyxy_lb{
 	width:1040px;
 	height:100%;
