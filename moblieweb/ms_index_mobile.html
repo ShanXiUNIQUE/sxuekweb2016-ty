@@ -5,41 +5,279 @@
     <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
     <title></title>
     <link rel="stylesheet" href="css/public.css" media="screen"  charset="utf-8">
+    <link rel="stylesheet" href="css/swiper-3.3.1.min.css" media="screen"  charset="utf-8">
     <link rel="stylesheet" href="css/ms_index_mobile.css" media="screen" title="no title" charset="utf-8">
+
     <script src="js/jquery-2.2.2.js"></script>
+    <script src="js/swiper.min.js" charset="utf-8"></script>
     <script src="js/touch-0.2.14.min.js" charset="utf-8"></script>
     <script src="js/ms_index_mobile.js" charset="utf-8"></script>
   </head>
+  <script>
+  $(function(){
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        spaceBetween: 30,
+    });
+  })
+
+  </script>
   <body>
     <div class="ms-huanjing">
         <div class="ms-top-img">
+          <img src="images/ms_image/ms_huanjing.png" alt="" />
         </div>
         <ul class="ms-huanjing-img">
           <!-- 从这里开始循环 -->
             <li class="ms-img-right">
                 <div class="ms-box">
-
+                    <img src="images/ms_image/ms_index_10.png" alt="" />
                 </div>
                 <div class="ms-box">
-
+                    <img src="images/ms_image/ms_index_15.png" alt="" />
                 </div>
                 <div class="ms-box">
-
+                    <img src="images/ms_image/ms_index_13.png" alt="" />
                 </div>
+
             </li>
             <li class="ms-img-right">
               <div class="ms-box">
+                  <img src="images/ms_image/ms_index_11.png" alt="" />
+              </div>
+              <div class="ms-box">
+                <img src="images/ms_image/ms_index_9.png" alt="" />
 
               </div>
               <div class="ms-box">
-
-              </div>
-              <div class="ms-box">
-
+                <img src="images/ms_image/ms_index_19.png" alt="" />
               </div>
             </li>
             <!-- 循环结束 -->
         </ul>
     </div>
+    <!-- 手机报名 -->
+    <div class="ms-baoming">
+        <div class="ms-yuyue-more">
+          <a href="#"></a>
+        </div>
+    </div>
+
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <ul class="ms-class">
+                <li class=" ms-class-lis">
+                    <div class="ms-h">
+                      <h5 class="ms-h5">MUI1505</h5>
+                      <h1 class="ms-h1">非专业设计班</h1>
+                    </div>
+                    <div class="ms-sheng">
+                        仅剩席位
+                    </div>
+                    <div class="ms-big-zi">
+                        <span>8</span>
+                    </div>
+                    <div class="ms-yuwei">
+                      余伟不多，速速抢位
+                    </div>
+                    <div class="ms-jiezhi">
+
+                    </div>
+                    <div class="ms-date">
+                        2016-12-03
+                    </div>
+                    <div class="ms-lianxi">
+                        <a href="#"></a>
+                    </div>
+                </li>
+                <li class=" ms-class-lis">
+                    <div class="ms-h">
+                      <h5 class="ms-h5">MUI1505</h5>
+                      <h1 class="ms-h1">非专业设计班</h1>
+                    </div>
+                    <div class="ms-sheng">
+                        仅剩席位
+                    </div>
+                    <div class="ms-big-zi">
+                        <span>8</span>
+                    </div>
+                    <div class="ms-yuwei">
+                      余伟不多，速速抢位
+                    </div>
+                    <div class="ms-jiezhi">
+
+                    </div>
+                    <div class="ms-date">
+                        2016-12-03
+                    </div>
+                    <div class="ms-lianxi">
+                        <a href="#"></a>
+                    </div>
+                </li>
+              </ul>
+            </div>
+            <div class="swiper-slide">
+              <ul class="ms-class">
+                <li class=" ms-class-lis">
+                    <div class="ms-h">
+                      <h5 class="ms-h5">MUI1505</h5>
+                      <h1 class="ms-h1">非专业设计班</h1>
+                    </div>
+                    <div class="ms-sheng">
+                        仅剩席位
+                    </div>
+                    <div class="ms-big-zi">
+                        <span>8</span>
+                    </div>
+                    <div class="ms-yuwei">
+                      余伟不多，速速抢位
+                    </div>
+                    <div class="ms-jiezhi">
+
+                    </div>
+                    <div class="ms-date">
+                        2016-12-03
+                    </div>
+                    <div class="ms-lianxi">
+                        <a href="#"></a>
+                    </div>
+                </li>
+                <li class=" ms-class-lis">
+                    <div class="ms-h">
+                      <h5 class="ms-h5">MUI1505</h5>
+                      <h1 class="ms-h1">非专业设计班</h1>
+                    </div>
+                    <div class="ms-sheng">
+                        仅剩席位
+                    </div>
+                    <div class="ms-big-zi">
+                        <span>8</span>
+                    </div>
+                    <div class="ms-yuwei">
+                      余伟不多，速速抢位
+                    </div>
+                    <div class="ms-jiezhi">
+
+                    </div>
+                    <div class="ms-date">
+                        2016-12-03
+                    </div>
+                    <div class="ms-lianxi">
+                        <a href="#"></a>
+                    </div>
+                </li>
+              </ul>
+
+            </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+
+
+    <!-- <ul class="ms-class">
+          <li class=" ms-class-lis">
+              <div class="ms-h">
+                <h5 class="ms-h5">MUI1505</h5>
+                <h1 class="ms-h1">非专业设计班</h1>
+              </div>
+              <div class="ms-sheng">
+                  仅剩席位
+              </div>
+              <div class="ms-big-zi">
+                  <span>8</span>
+              </div>
+              <div class="ms-yuwei">
+                余伟不多，速速抢位
+              </div>
+              <div class="ms-jiezhi">
+
+              </div>
+              <div class="ms-date">
+                  2016-12-03
+              </div>
+              <div class="ms-lianxi">
+                  <a href="#"></a>
+              </div>
+          </li>
+          <li class=" ms-class-lis">
+              <div class="ms-h">
+                <h5 class="ms-h5">MUI1505</h5>
+                <h1 class="ms-h1">非专业设计班</h1>
+              </div>
+              <div class="ms-sheng">
+                  仅剩席位
+              </div>
+              <div class="ms-big-zi">
+                  <span>8</span>
+              </div>
+              <div class="ms-yuwei">
+                余伟不多，速速抢位
+              </div>
+              <div class="ms-jiezhi">
+
+              </div>
+              <div class="ms-date">
+                  2016-12-03
+              </div>
+              <div class="ms-lianxi">
+                  <a href="#"></a>
+              </div>
+          </li>
+          <li class=" ms-class-lis">
+              <div class="ms-h">
+                <h5 class="ms-h5">MUI1505</h5>
+                <h1 class="ms-h1">非专业设计班</h1>
+              </div>
+              <div class="ms-sheng">
+                  仅剩席位
+              </div>
+              <div class="ms-big-zi">
+                  <span>8</span>
+              </div>
+              <div class="ms-yuwei">
+                余伟不多，速速抢位
+              </div>
+              <div class="ms-jiezhi">
+
+              </div>
+              <div class="ms-date">
+                  2016-12-03
+              </div>
+              <div class="ms-lianxi">
+                  <a href="#"></a>
+              </div>
+          </li>
+          <li class=" ms-class-lis">
+              <div class="ms-h">
+                <h5 class="ms-h5">MUI1505</h5>
+                <h1 class="ms-h1">非专业设计班</h1>
+              </div>
+              <div class="ms-sheng">
+                  仅剩席位
+              </div>
+              <div class="ms-big-zi">
+                  <span>20</span>
+              </div>
+              <div class="ms-yuwei">
+                余伟不多，速速抢位
+              </div>
+              <div class="ms-jiezhi">
+
+              </div>
+              <div class="ms-date">
+                  2016-12-03
+              </div>
+              <div class="ms-lianxi">
+                  <a href="#"></a>
+              </div>
+          </li>
+
+
+    </ul> -->
   </body>
+
 </html>
