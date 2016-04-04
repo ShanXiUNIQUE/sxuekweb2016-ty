@@ -13,7 +13,7 @@ $(function(){
   })
 
 
-
+setTimeout(function(){  
   var wlh_imgh=$(".m_wlh_teacher_conimg").find("img").height();
   var wlh_ulh=$(".m_wlh_teacher_card").height();
   $(".m_wlh_teachercon").css("height",wlh_ulh+140)
@@ -127,4 +127,6 @@ $(function(){
         move();
       }
   });
+
+},500)
 })
