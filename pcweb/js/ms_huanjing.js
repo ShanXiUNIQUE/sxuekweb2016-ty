@@ -55,10 +55,19 @@ $(function(){
         })
 
         // 报名开始
-        var obj=$(".ms-class-lis");
 
-        obj.eq(0).css({"margin-left":"0","color":"#FB7D29","border-top":"2px solid #FB7D29"}).find(".ms-h").css({"background-color":"#FFF9F4"})
-        obj.eq(1).css({"color":"#3888F4","border-top":"2px solid #3888F4"}).find(".ms-h").css({"background-color":"#FAFCFF"})
-        obj.eq(2).css({"color":"#EF3F64","border-top":"2px solid #EF3F64"}).find(".ms-h").css({"background-color":"#FEF2F4"})
-        obj.eq(3).css({"color":"#3888F4","border-top":"2px solid #3888F4"}).find(".ms-h").css({"background-color":"#FBFDFB"})
+        $(".ms-class-lis:nth-of-type(1)").css({"margin-left":"0","color":"#FB7D29","border-top":"2px solid #FB7D29"}).find(".ms-h").css({"background-color":"#FFF9F4"})
+        $(".ms-class-lis:nth-of-type(2)").css({"color":"#3888F4","border-top":"2px solid #3888F4"}).find(".ms-h").css({"background-color":"#FAFCFF"})
+        $(".ms-class-lis:nth-of-type(3)").css({"color":"#EF3F64","border-top":"2px solid #EF3F64"}).find(".ms-h").css({"background-color":"#FEF2F4"})
+        $(".ms-class-lis:nth-of-type(4)").css({"color":"#3888F4","border-top":"2px solid #3888F4"}).find(".ms-h").css({"background-color":"#FBFDFB"})
+
+        var swiper = new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            paginationClickable: true,
+            nextButton: '.swiper-button-next',
+            prevButton: '.swiper-button-prev',
+            spaceBetween: 30
+        });
+
+
 })
