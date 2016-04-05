@@ -35,6 +35,7 @@ img{
    width: 93%;
    height: auto;
    margin:0 auto;
+   overflow: hidden;
 }
 .m_wlh_teachertitle img{
 	width: 100%;
@@ -112,6 +113,7 @@ img{
 	box-shadow: -3px 10px 30px rgba(0,0,0,0.5);
 	margin:0 auto;
 	background: #010101;
+	overflow: hidden;
 }
 .m_wlh_teacher_conimg img{
 	width: 100%;
@@ -145,7 +147,7 @@ img{
     margin-right: 5px;
 }
 .m_wlh_teacher_ui{
-    margin-top:15px; 
+    margin-top:37px; 
     font-family: Arial;
     font-size: 16px;
     color: #c0dcff;
