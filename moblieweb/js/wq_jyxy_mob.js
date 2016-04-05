@@ -10,7 +10,7 @@ $(function(){
 	$(".wq_jyxy_int").height($(".wq_jyxy_int").width()*0.8)
 	
 	
-	touch.on(".wq_jyxy_item>img","touchstart",function(){
+	touch.on(".wq_jyxy_item>img","hold",function(){
 		$(this).animate({top:-parseInt(wq_width*0.30),opacity:1})
         $(this).next().css("display","block").animate({bottom:200})
 	})
@@ -20,6 +20,15 @@ $(function(){
 		$(this).animate({top:0,opacity:0.5})
         $(this).next().css("display","none").animate({bottom:350})
 	})
+  touch.on(".wq_jyxy_item>img","swipeleft swiperight",function(e){
+      if(e.type=="swipeleft"){
+          $(".wq_jyxy_item:lt(3)").fadeOut(500)
+          $(".wq_jyxy_item:gt(2)").fadeIn(500)
+      }else if(e.type=="swiperight"){
+         $(".wq_jyxy_item:lt(3)").fadeIn(500)
+         $(".wq_jyxy_item:gt(2)").fadeOut(500)
+      }
+  })
    var numarr=$(".wq_bottom_item").map(function(){
     return parseInt($(this).text())
   })
