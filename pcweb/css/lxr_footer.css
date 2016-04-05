@@ -1,0 +1,24 @@
+.lxr_footer{
+	width: 100%;height: 639px;
+	background: url(../images/footer-images/wlh-footer.jpg) center center;
+	position: relative;
+}
+
+.lxr_foot_center_box{
+	width: 1173px;height: 340px;
+	background: url(../images/footer-images/wlh-footerbg1.png) center center;
+	position: absolute;
+	left: 110px;top: 97px;
+}
+
+
+.lxr_foot_bottom_box{
+	width: 100%;height: 120px;
+	position: absolute;bottom: 0;left: 0;
+
+
+}
+
+.lxr_foot_bottom_box span{
+
+}
