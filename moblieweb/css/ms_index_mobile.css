@@ -57,15 +57,17 @@
   height:82px;
   margin:0 auto;
   background-image: url(../images/ms_image/ms_baoming.png);
-  background-size: cover;
+  background-size:120%;
+  background-repeat: no-repeat;
   background-position:left;
 }
 .ms-yuyue-more{
-    width:136px;
-    height:27px;
+    width:91px;
+    height:18px;
     background-image: url(../images/ms_image/ms_show.png);
     float: right;
-    margin-top:23px;
+    background-size: cover;
+    margin-top:29px;
 }
 .ms-yuyue-more a{
   display: block;
