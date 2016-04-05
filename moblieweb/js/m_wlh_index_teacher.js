@@ -16,7 +16,8 @@ $(window).on("load",function(){
 setTimeout(function(){  
   var wlh_imgh=$(".m_wlh_teacher_conimg").find("img").height();
   var wlh_ulh=$(".m_wlh_teacher_card").height();
-  $(".m_wlh_teachercon").css("height",wlh_ulh+140);
+  $(".m_wlh_teachercon").css("height",wlh_ulh+100);
+  $(".m_wlh_teacher_cardbox").css("height",wlh_ulh+100);
 },500)
   var m_wlh_img=$(".m_wlh_teacher_cardbox");
   var m_wlh_now2=0;
@@ -72,7 +73,7 @@ setTimeout(function(){
      $(".m_wlh_teacher_china").eq(index).show();
      $(".m_wlh_teacher_jiantou").eq(index).show();
      $(".m_wlh_teacher_bluebox_bg").eq(index).show();
-     $(".m_wlh_teacher_ui").eq(index).css("marginTop","58px")
+     $(".m_wlh_teacher_ui").eq(index).css("marginTop","28px")
 
   },function(){ 
      $(".m_wlh_teacher_bluebox").removeClass("m_wlh_teacher_bluebox_hover");

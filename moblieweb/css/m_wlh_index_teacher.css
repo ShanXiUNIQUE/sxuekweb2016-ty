@@ -78,7 +78,7 @@ img{
 /*内容 结束*/
 .m_wlh_teachercon{
    width: 93%;
-   height: 750px;
+   height: auto;
    padding-bottom: 20px;
    margin:0 auto;
    position: relative;
@@ -130,14 +130,14 @@ img{
 }
 .m_wlh_teacher_namebox{
 	color: #fff;
-	font-size: 20px;
+	font-size: 18px;
 }
 .m_wlh_teacher_yin{
 	margin-top: 5px;
 	margin-bottom: 3px;
 	color: #aad0ff;
 	font-family: Arial;
-	font-size: 18px;
+	font-size: 16px;
 }
 .m_wlh_teacher_star img{
     width: 12px;
@@ -157,17 +157,18 @@ img{
 	margin-top: 8px;
 	font-family: "Helvetica Neue Thin","微软雅黑";
 	color: #aecaec;
-	font-size: 30px;
+	font-size: 28px;
 	font-weight: lighter;
 }
 .m_wlh_teacher_china{
     color: #fff;
     padding:0 10px;
-    height: 80px;
+    height: 50px;
     overflow: hidden;
     margin-top: 10px;
     display: none;
     font-size: 12px;
+    overflow:hidden;
     text-overflow:ellipsis;
 }
 .m_wlh_teacher_jiantou{
@@ -175,11 +176,11 @@ img{
 	height: 50px;
 	background-image: url(../images/wlh_images/wlh_index_index_hover.jpg);
 	display: none;
-	margin:0 auto;
+	margin:15px auto 0;
 }
 .m_wlh_teacher_bluebox_bg{
 	width: 100%;
-	height: 47px;
+	height: 20px;
 	background-image: url(../images/wlh_images/wlh_index_teacher_big_bg1.png);
 	display: none;
 	background-size: 95%;
@@ -190,7 +191,7 @@ img{
 /*大盒子 开始*/
 .m_wlh_teacher_cardbox{
 	width: 100%;
-	height: 600px;
+	height: auto;
 	position: absolute;
 	left: 0;
 	top:0;
