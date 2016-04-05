@@ -11,14 +11,93 @@
 	left: 110px;top: 97px;
 }
 
+.lxr_foot_left_box{
+	width: 533px;height: 321px;
+	position: absolute;
+	top: 9px;left: 10px;
+}
+
+.lxr_erwei_right{
+	position: absolute;
+	top: 56px;left: 190px;
+}
+
+.lxr_erwei_right span{
+	color: #878D96;
+}
+
+.lxr_400{
+	width: 238px;height: 42px;
+	background: url(../images/footer-images/lxr_tel.png);
+	position: absolute;
+	top: 179px;left: 27px;
+}
+.lxr_click{
+	width: 263px;height: 80px;
+	background: url(../images/footer-images/lxr_consulting.png);
+	position: absolute;
+	left: 18px;bottom: 23px;
+}
+
+.lxr_koubei{
+	width: 205px;height: 57px;
+	position: absolute;
+	top: 41px;left: 330px;
+}
+
+.lxr_con_tel{
+	width: 220px;border-bottom: 2px solid #F4F4F4;
+	padding: 10px;color: #919191;
+	padding-left: 14px;
+	position: absolute;
+	bottom: 164px;left: 316px;
+}
+.lxr_con_tel .tel2{
+	margin-left: 70px;
+}
+.lxr_con_add{
+	position: absolute;
+	bottom: 115px;left: 330px;
+	color: #919191;
+}
+
+.lxr_con_qq{
+	color: #919191;
+	width: 220px;border-top: 2px solid #F4F4F4;
+	padding: 10px;padding-left: 14px;
+	position: absolute;
+	left: 316px;bottom: 20px;
+}
+
+.lxr_qq{
+	font-weight: bold;
+}
+
+.lxr_foot_right_box{
+	width: 533px;height: 321px;
+	position: absolute;
+	top: 9px;right: 10px;
+	background: url(../images/footer-images/wlh-ditu.jpg);
+}
 
 .lxr_foot_bottom_box{
 	width: 100%;height: 120px;
+	border-top: 1px solid #404041;
 	position: absolute;bottom: 0;left: 0;
+	text-align: center;
+}
 
-
+.lxr_foot_bottom_word_box{
+	height: 60px;
+	position: absolute;bottom: 0;left: 0;right: 0;top: 0;
+	margin: auto;
 }
 
 .lxr_foot_bottom_box span{
+	color: #757575;font-size: 14px;
+}
 
+#lxr-erweima{
+	position: absolute;
+	top: 30px;left: 30px;
 }
