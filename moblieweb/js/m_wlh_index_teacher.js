@@ -1,4 +1,4 @@
-$(function(){
+$(window).on("load",function(){
   var m_wlh_big=1;
   var m_wlh_now=0;
   $(".m_wlh_teacher_card").each(function(index,obj){
@@ -16,7 +16,8 @@ $(function(){
 setTimeout(function(){  
   var wlh_imgh=$(".m_wlh_teacher_conimg").find("img").height();
   var wlh_ulh=$(".m_wlh_teacher_card").height();
-  $(".m_wlh_teachercon").css("height",wlh_ulh+140)
+  $(".m_wlh_teachercon").css("height",wlh_ulh+140);
+},500)
   var m_wlh_img=$(".m_wlh_teacher_cardbox");
   var m_wlh_now2=0;
   var m_wlh_next=0;
@@ -128,5 +129,5 @@ setTimeout(function(){
       }
   });
 
-},500)
+
 })
